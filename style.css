@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+    /* background-color: #FF8E15; */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    
+
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+.homepage {
+    min-height: 100vh;
+    background-image: url(../images/homeless-man-833017_1920.jpg);
+    background-size: cover;
+    position: relative;
+    
+}
+.homepage .overlay {
+    background-color: rgb(250 183 51 / 23%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+    z-index: 1;
+}
+
+.header {
+    position: relative;
+    z-index: 2;
+    color: #FCF1D1;
+    display: flex;
+    padding: 15px;
+
+}
+.header .logo {
+    width: 300px;
+    padding: 15px;
+    font-weight: bolder;
+
+}
+.header .sections {
+    list-style: none;
+    text-align: right;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 20px;
+}
+.header .sections li {
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.header .sections li:hover {
+    color: #FAB733 ;
+    /* background-color: #1CB334;
+    padding-bottom: 20px; */
+}
+
+.intro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+
+}
+.intro h1 span {
+    color: #A3C586;
+
+}
+.intro p {
+    line-height: 2;
+
+}
+
+button {
+    
+    width: fit-content;
+    border: 2px solid #FCF1D1;
+    text-align: center;
+    display: inline-block;
+    color: #FF8E15;
+    background-color: transparent; 
+    border-radius: 12px;
+    padding: 9px 70px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    z-index: 2;
+    
+    
+}
+
+button:hover {
+    background-color: #A3C586;
+}
+
+
+
+.about {
+    min-height: 100vh;
+    background-color: #A3C586;
+    position: relative;
+    z-index: 2;
+}
+
+.about img {
+    float: right;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+  
+
+}
+
+.about .mission p {
+    margin: 0;
+}
+
+
+
+
+
+
+.locations {
+    min-height: 100vh;
+    background-color: #FF8E15;
+}
+.faq {
+    min-height: 100vh;
+    background-color: #FCF1D1;
+    color: #FF8E15;
+   
+    
+
+
+}
+.faq h1 {
+    margin: 0 20px 20px 40px;
+    text-align: center;
+    
+}
+
+.questions {
+   
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact {
+    min-height: 100vh;
+    background-color: #FAB733;
+    color: black;
+    
+
+
+}
+form {
+    border-radius: 5px;
+    background-color: #A3C586;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+}
+input[type=text], select, textarea {
+   
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  #map {
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+  }
+
+
+.socials {
+    list-style: none;
+
+}

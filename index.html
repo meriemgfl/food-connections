@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Connections</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+</head>
+<body>
+    <!--first page -->
+
+    <div class="homepage">
+        <div class="overlay"></div>
+        <div class="header">
+            <div class="logo">Food Connections</div>
+            <ul class="sections">
+                <li id="home">Home</li>
+                <li id="about">About</li>
+                <li id="locations">Find a location</li>
+            </ul>
+        </div>
+        <div class="intro">
+            <h1>We are <span>Food Connections</span></h1>
+            <p>Fighting hunger in every corner</p>
+            <button>Find out more</button>
+        </div>
+
+    </div>
+   <!--second page -->
+    
+    <div class="about">
+        <a href="#about"></a>
+             <img src="../images/homeless-man-2653445_1920.jpg" alt="homeless man">
+            <div class="mission">
+            <p>Our mission is to help disadvantaged communities access food and necessities. </p>
+            <button>Find a location</button>
+            <button>Become a Volunteer</button>
+            </div>
+        
+    </div>
+    <!--third page -->
+
+    <div class="locations">
+        <div id="map"></div>
+
+
+    </div>
+    
+    <!--forth page -->
+
+    <div class="faq">
+       <h1>Frequently Asked Questions</h1>
+        <div class="questions">
+        <div class="q-one">
+            <h2> How do you reach people?</h2>
+        <div class="answer">
+            <p>You can use our tool "Find a location" to find the nearest communities on the map and hover to find out their information.</p>
+        </div>
+        </div>
+
+        <div class="q-two">
+            <h2>How can I volunteer?</h2>
+        <div class="answer">
+            <p>You can register your interest by filling the contact form, an email will be sent to you with further details of our volunteeting programs.</p>
+        </div>
+        </div>
+
+        <div class="q-three">
+            <h2>Can I donate money instead?</h2>
+            <div class="answer">
+                <p>We do encourage people and food places to donate food to local communities and reduce food waste.  </p>
+
+        </div>
+       </div>
+    </div>
+    </div>
+   <!--last page -->
+
+    <div class="contact">
+        <div class="last-page-header">
+            <div class="logo">Food Connections</div>
+            <div class=""><p>Fighting hunger in every corner.</p>
+            </div>
+
+
+            <h2>Contact us</h2>
+            <div class="socials"><p>via this form or reach out on our socials <a href="https://www.facebook.com/">Facebook</a>, <a href="https://twitter.com/">Twitter</a> or <a href="https://www.instagram.com/">Instagram</a></p>
+            </div>
+                
+               
+
+        <div class="email">
+            <form action="">
+          
+              <label for="email">email</label>
+              <input type="text" id="email" name="email" placeholder="Your email">
+          
+              
+          
+              <label for="subject">Subject</label>
+              <select id="help" name="options">
+                <option value="volunteer">volunteer</option>
+                <option value="donate">donate</option>
+                <option value="sponsor">Sponsor</option>
+              </select>
+          
+              <label for="subject">text</label>
+              <textarea id="subject" name="email" placeholder="Your email." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    
+         
+          
+        </div>
+         
+    </div>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+    defer
+  ></script>
+    
+</body>
+</html>
