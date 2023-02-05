@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
     position: relative;
     
 }
-.homepage .overlay {
+/* .homepage .overlay {
     background-color: rgb(250 183 51 / 23%);
     position: absolute;
     height: 100%;
@@ -27,7 +27,7 @@ body::-webkit-scrollbar {
     top: 0;
     
     z-index: 1;
-}
+} */
 
 .header {
     position: relative;
@@ -37,25 +37,26 @@ body::-webkit-scrollbar {
     padding: 15px;
 
 }
-.header .logo {
+.header .logo, div .logo {
     width: 300px;
     padding: 15px;
     font-weight: bolder;
 
 }
-.header .sections {
+.header .sections, .last-header {
     list-style: none;
     text-align: right;
     width: 100%;
     padding-left: 0;
     padding-right: 20px;
+    cursor: pointer;
 }
 .header .sections li {
     display: inline-block;
     margin-left: 30px;
     font-weight: bold;
 }
-.header .sections li:hover {
+.header .sections li:hover, .header .sections a {
     color: #FAB733 ;
     /* background-color: #1CB334;
     padding-bottom: 20px; */
@@ -79,7 +80,7 @@ body::-webkit-scrollbar {
 
 }
 
-button {
+button, input[type=submit] {
     
     width: fit-content;
     border: 2px solid #FCF1D1;
@@ -122,7 +123,17 @@ button:hover {
     margin: 0;
 }
 
+.mission {
+    inline-size: 400px;
+    overflow-wrap: normal;
+    text-align: center;
+    margin: 0 20px;
+    padding: 100px;
+    font-weight: 600;
+    color: #FCF1D1;
+    line-height: 2;
 
+}
 
 
 
@@ -131,19 +142,31 @@ button:hover {
     min-height: 100vh;
     background-color: #FF8E15;
 }
+.locations h1 {
+    margin-top: 0;
+    text-align: center;
+    color: #FCF1D1;
+    padding: 20px;
+}
+
 .faq {
     min-height: 100vh;
     background-color: #FCF1D1;
     color: #FF8E15;
-   
+    overflow-wrap: normal;
+    
     
 
 
 }
 .faq h1 {
     margin: 0 20px 20px 40px;
+    padding-top: 30px;
     text-align: center;
     
+}
+.faq h2 {
+   color:#A3C586;
 }
 
 .questions {
@@ -178,7 +201,7 @@ form {
 input[type=text], select, textarea {
    
     padding: 12px;
-    border: 1px solid #ccc;
+    border:2px solid #FCF1D1;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -186,12 +209,40 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   #map {
-    height: 400px; /* The height is 400 pixels */
+    padding: 40px;
+    height: 100vh; /* The height is 400 pixels */
     width: 100%; /* The width is the width of the web page */
+    display: flex;
+    align-items: center;
+
   }
 
+  .slogan {
+    display: flex;
+    justify-content: space-around;
+    color: #A3C586;
+    font-size: medium;
+
+  }
 
 .socials {
-    list-style: none;
+    color: #FCF1D1;
+    padding-left: 20px;
+
 
 }
+.socials p{
+    
+    
+}
+
+
+ a:link , a:visited, a:active, a:hover  {
+    text-decoration: none;
+
+ }
+ .email {
+    display: flex;
+    justify-content:  ;
+ }
+
