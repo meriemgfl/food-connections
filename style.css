@@ -221,20 +221,17 @@ input[type=text], select, textarea {
     display: flex;
     justify-content: space-around;
     color: #A3C586;
-    font-size: medium;
+    
 
   }
 
 .socials {
     color: #FCF1D1;
-    padding-left: 20px;
+     padding-left: 20px; 
 
 
 }
-.socials p{
-    
-    
-}
+
 
 
  a:link , a:visited, a:active, a:hover  {
@@ -243,6 +240,6 @@ input[type=text], select, textarea {
  }
  .email {
     display: flex;
-    justify-content:  ;
+    justify-content: space-between  ;
  }
 
